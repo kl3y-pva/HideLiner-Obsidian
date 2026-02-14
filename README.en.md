@@ -1,5 +1,7 @@
 # HideLiner (Obsidian Plugin)
 
+[Русская версия](README.MD)
+
 An Obsidian plugin that hides text wrapped in `&&...&&` and toggles display mode with a single command.
 
 ## What the plugin does
