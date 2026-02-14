@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Build caches / temp
+dist/
+build/
+.cache/
+coverage/
+*.tsbuildinfo
+tmp/
+temp/
+
+# Test / local artifacts
+.nyc_output/
+
+# Keep Obsidian plugin release files trackable by default:
+# - main.js
+# - manifest.json
+# - styles.css (if used)
